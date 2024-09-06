@@ -76,7 +76,7 @@
             padding: 10px;
             background-color: #004d40;
             color: white;
-            position: fixed;
+            position: relative;
             bottom: 0;
             width: 100%;
         }
@@ -129,6 +129,25 @@
         .form-group button:hover {
             background-color: #004d40;
         }
+        .certification-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .certification-logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+        .certification-details {
+            flex: 1;
+        }
+        .certification-title {
+            font-weight: bold;
+        }
+        .certification-issuer {
+            color: #00796b;
+        }
         @media (max-width: 600px) {
             header h1 {
                 font-size: 1.5rem;
@@ -172,7 +191,7 @@
         <div class="tab" data-tab="skills">Skills</div>
         <div class="tab" data-tab="experience">Experience</div>
         <div class="tab" data-tab="education">Education</div>
-        <div class="tab" data-tab="certifications">Certifications</div>
+        <div class="tab" data-tab="certifications">Licenses & Certifications</div>
         <div class="tab" data-tab="contact">Contact Me</div>
     </div>
     
@@ -222,72 +241,126 @@
         </ul>
         
         <h3>ICT Assistant & Data Entry | Oroke High School</h3>
-        <p><strong>February 2018 | Akungba, Ondo State</strong></p>
+        <p><strong>February 2021 – August 2022 | Nigeria</strong></p>
         <ul>
-            <li>Excelled in accurately managing student records and administrative data.</li>
-            <li>Implemented data validation rules, reducing errors by 0% through automation.</li>
-            <li>Automated workflows, saving hours weekly and enhancing efficiency.</li>
+            <li>Provided technical support and data entry services for school projects.</li>
+            <li>Developed Excel-based dashboards for student performance tracking.</li>
         </ul>
     </section>
     
     <section id="education" class="container">
         <h2 class="section-title">Education</h2>
         <h3>Bachelor of Applied Science in Education (Economics)</h3>
-        <p><strong>2019 | Adekunle Ajasin University, Akungba-Akoko</strong></p>
-        <ul>
-            <li>Graduated with Second Class Upper Division (2:1).</li>
-        </ul>
+        <p><strong>2019 | Adekunle Ajasin University, Akungba-Akoko (AAUA)</strong></p>
+        <p>Graduated with a Second Class Upper degree (2:1).</p>
         
         <h3>Postgraduate Diploma in Computer Science</h3>
-        <p><strong>2024 | Achievers University, Owo</strong></p>
-        <ul>
-            <li>Specialized in Data Science and Machine Learning.</li>
-            <li>Defended a thesis on house price prediction with improved model accuracy.</li>
-        </ul>
+        <p><strong>September 2024 | Achievers University, Owo</strong></p>
     </section>
     
     <section id="certifications" class="container">
-        <h2 class="section-title">Certifications</h2>
-        <ul>
-            <li>Data Science Bootcamp | OneCampus Academy</li>
-            <li>Python for Data Science | Coursera</li>
-            <li>Advanced Machine Learning | edX</li>
-        </ul>
+        <h2 class="section-title">Licenses & Certifications</h2>
+        
+        <div class="certification-item">
+            <img src="alx_africa_logo.png" alt="ALX Africa Logo" class="certification-logo">
+            <div class="certification-details">
+                <p class="certification-title">AI Augmented Professional Development</p>
+                <p class="certification-issuer">ALX Africa | Issued Aug 2024</p>
+                <p>Skills: LinkedIn · Data Visualization · Data Analysis · Cover Letters · Resume Writing · AI Prompting</p>
+            </div>
+        </div>
+        
+        <div class="certification-item">
+            <img src="cx_outsourcing_logo.png" alt="CX Outsourcing Logo" class="certification-logo">
+            <div class="certification-details">
+                <p class="certification-title">Effective Communication: Phone Calls and Chat Etiquette</p>
+                <p class="certification-issuer">CX Outsourcing | Issued Aug 2024</p>
+                <p>Skills: Communication</p>
+            </div>
+        </div>
+        
+        <div class="certification-item">
+            <img src="coursera_logo.png" alt="Coursera Logo" class="certification-logo">
+            <div class="certification-details">
+                <p class="certification-title">Foundation Data Data Everywhere</p>
+                <p class="certification-issuer">Coursera | Issued Dec 2023</p>
+                <p>Skills: Analytics · Data Analysis</p>
+            </div>
+        </div>
+        
+        <div class="certification-item">
+            <img src="onecampus_academy_logo.png" alt="OneCampus Academy Logo" class="certification-logo">
+            <div class="certification-details">
+                <p class="certification-title">Cert-INTL - Data Science Professional Program</p>
+                <p class="certification-issuer">OneCampus Academy | Issued Jul 2023</p>
+                <p>Credential ID: 9257192839AO</p>
+                <p>Skills: Python (Programming Language) · Statistical Analysis · Statistics</p>
+            </div>
+        </div>
+        
+        <div class="certification-item">
+            <img src="udemy_logo.png" alt="Udemy Logo" class="certification-logo">
+            <div class="certification-details">
+                <p class="certification-title">Python for Data Science and Machine Learning Bootcamp</p>
+                <p class="certification-issuer">Udemy | Issued Jun 2023</p>
+                <p>Skills: Python (Programming Language) · Programming Languages · Analytics · Statistical Analysis · Data Analysis · Machine Learning · Working Experience · Programming · Skill Development</p>
+            </div>
+        </div>
+        
+        <div class="certification-item">
+            <img src="udemy_logo.png" alt="Udemy Logo" class="certification-logo">
+            <div class="certification-details">
+                <p class="certification-title">Interactive Python Dashboards with Plotly and Dash</p>
+                <p class="certification-issuer">Udemy | Issued Dec 2022</p>
+                <p>Skills: Communication · Python (Programming Language) · Programming Languages · Statistical Analysis · Working Experience · Programming · Skill Development</p>
+            </div>
+        </div>
+        
+        <div class="certification-item">
+            <img src="code_with_mosh_logo.png" alt="Code With Mosh Logo" class="certification-logo">
+            <div class="certification-details">
+                <p class="certification-title">Complete Python Mastery</p>
+                <p class="certification-issuer">Code With Mosh | Issued May 2022</p>
+                <p>Credential ID: cert_hrql0ks0</p>
+                <p>Skills: Python (Programming Language) · Programming Languages · Working Experience · Programming · Skill Development</p>
+            </div>
+        </div>
+        
+        <div class="certification-item">
+            <img src="udemy_logo.png" alt="Udemy Logo" class="certification-logo">
+            <div class="certification-details">
+                <p class="certification-title">The Complete SQL Bootcamp 2022: Go From Zero to Hero</p>
+                <p class="certification-issuer">Udemy | Issued Feb 2022</p>
+                <p>Skills: Programming Languages · Analytics · Statistical Analysis · Databases · Working Experience · PostgreSQL · Programming · SQL · Skill Development</p>
+            </div>
+        </div>
+        
+        <div class="certification-item">
+            <img src="udemy_online_courses_logo.png" alt="Udemy Online Courses Logo" class="certification-logo">
+            <div class="certification-details">
+                <p class="certification-title">Probability and Statistics for Data Science</p>
+                <p class="certification-issuer">Udemy | Issued Jan 2022</p>
+                <p>Skills: Programming Languages · Analytics · Statistical Analysis · Working Experience · Programming · Skill Development</p>
+            </div>
+        </div>
     </section>
-    
+
     <section id="contact" class="container">
         <h2 class="section-title">Contact Me</h2>
-        <div class="contact-form">
-            <form action="mailto:obaudeayodejimichael@gmail.com" method="post" enctype="text/plain">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit">Send Message</button>
-                </div>
-            </form>
-        </div>
+        <p>If you would like to get in touch, feel free to reach out via WhatsApp:</p>
+        <a href="https://wa.me/2347061009114" class="form-group button">Contact on WhatsApp</a>
     </section>
     
     <footer class="footer">
-        <p>© 2024 Obaude Ayodeji Michael. All rights reserved.</p>
+        <p>&copy; 2024 Obaude Ayodeji Michael. All rights reserved.</p>
     </footer>
-
+    
     <script>
         document.querySelectorAll('.tab').forEach(tab => {
             tab.addEventListener('click', () => {
                 document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
                 document.querySelectorAll('.container').forEach(c => c.classList.remove('active'));
-                
+
                 tab.classList.add('active');
                 document.getElementById(tab.getAttribute('data-tab')).classList.add('active');
             });
