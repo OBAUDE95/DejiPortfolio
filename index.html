@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obaude Ayodeji Michael - Data Science & Data Analyst Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #004d40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 5px;
+            font-size: 1rem;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .tab {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: #00796b;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            font-weight: bold;
+        }
+        .tab:hover {
+            background-color: #004d40;
+        }
+        .tab.active {
+            background-color: #004d40;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            display: none;
+            margin-bottom: 40px;
+        }
+        .container.active {
+            display: block;
+        }
+        .profile-picture {
+            max-width: 150px;
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 5px solid #00796b;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #004d40;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .section-title {
+            color: #00796b;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        .form-group textarea {
+            resize: vertical;
+            height: 150px;
+        }
+        .form-group button {
+            background-color: #00796b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .form-group button:hover {
+            background-color: #004d40;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .tab {
+                padding: 5px 10px;
+                font-size: 0.9rem;
+            }
+            .footer {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/6670907c9a809f19fb3ebd99/1i0jr8ptt';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <header>
+        <img src="deji.jpg" alt="Obaude Ayodeji Michael" class="profile-picture">
+        <h1>Obaude Ayodeji Michael</h1>
+        <p>Email: obaudeayodejimichael@gmail.com<br>
+           Phone: +234 7061009114<br>
+           Address: Ondo, Nigeria</p>
+    </header>
+    
+    <div class="tabs">
+        <div class="tab active" data-tab="summary">Profile Summary</div>
+        <div class="tab" data-tab="projects">Projects</div>
+        <div class="tab" data-tab="skills">Skills</div>
+        <div class="tab" data-tab="experience">Experience</div>
+        <div class="tab" data-tab="education">Education</div>
+        <div class="tab" data-tab="certifications">Certifications</div>
+        <div class="tab" data-tab="contact">Contact Me</div>
+    </div>
+    
+    <section id="summary" class="container active">
+        <h2 class="section-title">Profile Summary</h2>
+        <p>Dynamic and analytic skilled Data Scientist with over three years of experience. Adept in data wrangling, driving insights through exploration, and developing machine learning models. Proficient in creating interactive web apps with Plotly and Dash for impactful data visualization. Recently improved house price prediction accuracy in Lagos by 4.82% in MAE.</p>
+    </section>
+    
+    <section id="projects" class="container">
+        <h2 class="section-title">Projects</h2>
+        <h3>House Price Prediction Model | Postgraduate Diploma Project</h3>
+        <p><strong>Date:</strong> September 2024 | Achievers University, Owo</p>
+        <ul>
+            <li>Improved predictive model performance by 4.82% in Mean Absolute Error (MAE) over existing models for house price prediction in Lagos.</li>
+            <li>Deployed a web app for the house price prediction model with hash authentication using Plotly and Dash on Render.</li>
+        </ul>
+        
+        <h3>Crime Prediction Model | Data Science Intern Project</h3>
+        <p><strong>Date:</strong> September 2022 | OneCampus Academy, USA</p>
+        <ul>
+            <li>Developed a prediction model to forecast crime districts with 98% accuracy using a Random Forest model.</li>
+            <li>Created a crime type classification model with 79% accuracy using a Decision Tree Classifier.</li>
+        </ul>
+    </section>
+    
+    <section id="skills" class="container">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>Data Science</li>
+            <li>Data Analysis</li>
+            <li>Machine Learning</li>
+            <li>Python Programming</li>
+            <li>Data Visualization (Python Plotly, Dash)</li>
+            <li>Project Management</li>
+            <li>Effective Communication</li>
+        </ul>
+    </section>
+    
+    <section id="experience" class="container">
+        <h2 class="section-title">Professional Experience</h2>
+        <h3>Data Scientist Intern | OneCampus Academy</h3>
+        <p><strong>September 2022 – Present | Ohio, USA</strong></p>
+        <ul>
+            <li>Analyzed crime data to identify key patterns and features for model development.</li>
+            <li>Developed a Random Forest model to predict crime districts with 98% accuracy.</li>
+            <li>Implemented a Decision Tree Classifier for crime type prediction with 79% accuracy.</li>
+        </ul>
+        
+        <h3>ICT Assistant & Data Entry | Oroke High School</h3>
+        <p><strong>February 2018 | Akungba, Ondo State</strong></p>
+        <ul>
+            <li>Excelled in accurately managing student records and administrative data.</li>
+            <li>Implemented data validation rules, reducing errors by 0% through automation.</li>
+            <li>Automated workflows, saving hours weekly and enhancing efficiency.</li>
+        </ul>
+    </section>
+    
+    <section id="education" class="container">
+        <h2 class="section-title">Education</h2>
+        <h3>Bachelor of Applied Science in Education (Economics)</h3>
+        <p><strong>2019 | Adekunle Ajasin University, Akungba-Akoko</strong></p>
+        <ul>
+            <li>Graduated with Second Class Upper Division (2:1).</li>
+        </ul>
+        
+        <h3>Postgraduate Diploma in Computer Science</h3>
+        <p><strong>2024 | Achievers University, Owo</strong></p>
+        <ul>
+            <li>Specialized in Data Science and Machine Learning.</li>
+            <li>Defended a thesis on house price prediction with improved model accuracy.</li>
+        </ul>
+    </section>
+    
+    <section id="certifications" class="container">
+        <h2 class="section-title">Certifications</h2>
+        <ul>
+            <li>Data Science Bootcamp | OneCampus Academy</li>
+            <li>Python for Data Science | Coursera</li>
+            <li>Advanced Machine Learning | edX</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-form">
+            <form action="mailto:obaudeayodejimichael@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>© 2024 Obaude Ayodeji Michael. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.container').forEach(c => c.classList.remove('active'));
+                
+                tab.classList.add('active');
+                document.getElementById(tab.getAttribute('data-tab')).classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
